@@ -7,7 +7,7 @@
     <button type="button" (click)="isLiked = !isLiked" [ngClass] = "{liked: isLiked}">❤</button>
 </div>
 <div class="comments">
-    <div class="comment">
+    <div class="comment" *ngFor="let comment of comments">
         <p><strong>{{comment.name}}</strong>{{comment.comment}}</p>
     </div>
 </div>
