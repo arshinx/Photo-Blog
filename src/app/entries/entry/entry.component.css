@@ -26,3 +26,8 @@ img {
     padding: 1em;
     display: block;
 }
+
+/* Button Div */
+.actions {
+    padding: 1em 0;
+}
