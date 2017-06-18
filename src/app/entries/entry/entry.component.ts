@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class EntryComponent {
     title: string = 'My First Photo';
+    photo: string = 'http://placeholder.it/800x500?text=Angular Basics'
 }
