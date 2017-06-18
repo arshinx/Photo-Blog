@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
     emoji: string[];
     constructor() {
-        this.emoji = [];
+        this.emoji = ['🎉', '😍', '😜', '👍'];
     }
 
 }
