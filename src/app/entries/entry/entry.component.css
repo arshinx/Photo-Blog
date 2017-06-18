@@ -24,4 +24,5 @@ img {
 /* CSS3 Pseudoclass */
 :host {
     padding: 1em;
+    display: block;
 }
