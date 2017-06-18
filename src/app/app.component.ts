@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EntryListComponent } from './entries/entry-list/entry-list.component';
 
 @Component({
     selector: 'app-root',
