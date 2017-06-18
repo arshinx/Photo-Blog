@@ -31,3 +31,8 @@ img {
 .actions {
     padding: 1em 0;
 }
+
+/* Heart Button Color */
+.liked {
+    color: red;
+}
