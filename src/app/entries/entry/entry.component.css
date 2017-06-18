@@ -2,3 +2,7 @@ figure {
     margin: 0;
     border: 1px solid #000;
 }
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
