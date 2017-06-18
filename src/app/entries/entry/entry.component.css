@@ -20,3 +20,8 @@ img {
     width: 1005;
     height: auto;
 }
+
+/* CSS3 Pseudoclass */
+:host {
+    padding: 1em;
+}
