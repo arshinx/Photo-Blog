@@ -5,6 +5,7 @@
 </figure>
 <div class="actions">
     <button type="button" (click)="isLiked = !isLiked" [ngClass] = "{liked: isLiked}">❤</button>
+    <button type="button" (click)="showComments = !showComments">Comments ({{comments.length}})</button>
 </div>
 <div class="comments">
     <div class="comment" *ngFor="let comment of comments">
