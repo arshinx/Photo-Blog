@@ -7,7 +7,7 @@ import { Http } from '@angular/http';
     styleUrls: ['entry-list.component.css']
 })
 export class EntryListComponent {
-    constructor() {
+    constructor(http: Http) {
 
     }
 }
