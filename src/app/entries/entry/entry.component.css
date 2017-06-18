@@ -17,4 +17,6 @@ figcaption {
 
 img {
     display: block;
+    width: 1005;
+    height: auto;
 }
