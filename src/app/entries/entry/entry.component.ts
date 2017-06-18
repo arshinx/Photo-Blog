@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrls: ['entry.component.css']
 })
 export class EntryComponent {
-
+    title: string = 'My First Photo';
 }
