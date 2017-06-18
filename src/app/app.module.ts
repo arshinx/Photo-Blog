@@ -5,7 +5,11 @@ import { EntryListComponent, EntryComponent } from './entries';
 
 @NgModule({
     imports: [BrowserModule],
-    declarations: [AppComponent, EntryListComponent],
+    declarations: [
+        AppComponent,
+        EntryComponent,
+        EntryListComponent
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {
