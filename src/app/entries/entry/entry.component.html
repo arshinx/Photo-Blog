@@ -3,4 +3,6 @@
     <img src="{{photo}}">
     <figcaption>{{description}}</figcaption>
 </figure>
-<button type="button" (click)="isLiked = !isLiked" [ngClass] = "{liked: isLiked}">❤</button>
+<div>
+    <button type="button" (click)="isLiked = !isLiked" [ngClass] = "{liked: isLiked}">❤</button>
+</div>
