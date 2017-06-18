@@ -8,6 +8,7 @@ import { Http } from '@angular/http';
 })
 export class EntryListComponent {
     constructor(http: Http) {
-
+        http.get('/app/entries').toPromise()
+            .then(response => {debugger;}, error => {debugger;});
     }
 }
