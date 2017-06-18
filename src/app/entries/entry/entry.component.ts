@@ -11,7 +11,7 @@ export class EntryComponent {
     description: string = 'A Description of My First Photo';
     comments: any[] = [
         {name: "John", comment: "A Comment"},
-        {name: "John", comment: "A Comment"},
-        {name: "John", comment: "A Comment"}
+        {name: "Jim", comment: "A Comment"},
+        {name: "Jen", comment: "A Comment"}
     ];
 }
