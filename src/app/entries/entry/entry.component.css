@@ -7,4 +7,5 @@ figcaption {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-size: 1.2em;
+    padding: 10px;
 }
