@@ -5,7 +5,10 @@ import { AppComponent } from './app.component';
 import { EntryListComponent, EntryComponent } from './entries';
 
 @NgModule({
-    imports: [BrowserModule],
+    imports: [
+        BrowserModule, 
+        HttpModule
+    ],
     declarations: [
         AppComponent,
         EntryComponent,
