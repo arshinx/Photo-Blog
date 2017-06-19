@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { EntryService } from '../shared/entry.service';
+import { Entry } from '../shared/entry.model';
 
 @Component({
     selector: 'app-entry-list',
@@ -7,11 +8,14 @@ import { EntryService } from '../shared/entry.service';
     styleUrls: ['entry-list.component.css']
 })
 export class EntryListComponent implements OnInit {
+    
+
     constructor(private entryService: EntryService) {
 
     }
 
+    //
     ngOnInit() {
-        
+
     }
 }
