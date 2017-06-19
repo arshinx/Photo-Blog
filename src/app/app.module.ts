@@ -9,6 +9,7 @@ import { EntryListComponent, EntryComponent, EntryService } from './entries';
         BrowserModule, 
         HttpModule
     ],
+    providers: [ EntryService ],
     declarations: [
         AppComponent,
         EntryComponent,
