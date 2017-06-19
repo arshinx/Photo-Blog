@@ -10,7 +10,7 @@ import { InMemoryEntryService } from './backend';
     imports: [
         BrowserModule, 
         HttpModule,
-        InMemoryWebApiModule
+        InMemoryWebApiModule.forRoot(InMemoryEntryService)
     ],
     providers: [ EntryService ],
     declarations: [
