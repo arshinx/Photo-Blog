@@ -9,7 +9,8 @@ import { InMemoryEntryService } from './backend';
 @NgModule({
     imports: [
         BrowserModule, 
-        HttpModule
+        HttpModule,
+        InMemoryWebApiModule
     ],
     providers: [ EntryService ],
     declarations: [
