@@ -7,5 +7,7 @@ import { EntryService } from '../shared/entry.service';
     styleUrls: ['entry-list.component.css']
 })
 export class EntryListComponent {
+    constructor(entryService: EntryService) {
 
+    }
 }
