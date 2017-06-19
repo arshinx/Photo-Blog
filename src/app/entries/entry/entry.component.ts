@@ -7,5 +7,5 @@ import { Entry } from '../shared/entry.model';
     styleUrls: ['entry.component.css']
 })
 export class EntryComponent {
-    entry: Entry;
+    @Input() entry: Entry;
 }
