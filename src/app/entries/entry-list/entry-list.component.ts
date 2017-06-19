@@ -16,6 +16,8 @@ export class EntryListComponent implements OnInit {
 
     //
     ngOnInit() {
-
+        this.entryService
+                .getEntries()
+                .then(entries => this.entries = entries);
     }
 }
