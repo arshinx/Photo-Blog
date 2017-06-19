@@ -6,8 +6,12 @@ import { EntryService } from '../shared/entry.service';
     templateUrl: 'entry-list.component.html',
     styleUrls: ['entry-list.component.css']
 })
-export class EntryListComponent {
+export class EntryListComponent implements OnInit {
     constructor(private entryService: EntryService) {
 
+    }
+
+    ngOnInit() {
+        
     }
 }
