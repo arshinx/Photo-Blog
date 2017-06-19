@@ -4,7 +4,7 @@ import { Http } from '@angular/http';
 
 @Injectable()
 export class EntryService {
-    constructor(http: Http) {
+    constructor(private http: Http) {
 
     }
 
