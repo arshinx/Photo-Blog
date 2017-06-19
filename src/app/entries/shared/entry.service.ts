@@ -1,9 +1,13 @@
 import { Entry } from './entry.model';
 import { Injectable } from '@angular/core';
-import { HttpModule } from '@angular/http';
+import { Http } from '@angular/http';
 
 @Injectable()
 export class EntryService {
+    constructor(http: Http) {
+
+    }
+
     getEntries(): Entry[] {
 
     }
