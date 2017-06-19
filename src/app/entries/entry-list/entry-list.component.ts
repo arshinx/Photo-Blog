@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EntryService } from '../shared/entry.service';
 
 @Component({
     selector: 'app-entry-list',
