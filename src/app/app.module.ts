@@ -17,7 +17,8 @@ import { InMemoryEntryService } from './backend';
     declarations: [
         AppComponent,
         EntryComponent,
-        EntryListComponent
+        EntryListComponent,
+        EntryCommentFormComponent
     ],
     bootstrap: [AppComponent]
 })
