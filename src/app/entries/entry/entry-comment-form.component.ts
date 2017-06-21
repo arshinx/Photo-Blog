@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
 })
 
 export class EntryCommentFormComponent {
-    name: String;
-    comment: String;
+    name: string;
+    comment: string;
 }
