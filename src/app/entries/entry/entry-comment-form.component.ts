@@ -17,6 +17,7 @@ export class EntryCommentFormComponent {
     name: string = "";
     comment: string = "";
     @Output() onCommentAdded = new EventEmitter<{name: string; comment: string;}>();
+    @ViewChild('commentForm') commentForm: ngForm;
 
     onSubmit() {
         let comment = { name: this.name, comment: this.comment };
