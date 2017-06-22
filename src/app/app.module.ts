@@ -11,7 +11,8 @@ import { InMemoryEntryService } from './backend';
     imports: [
         BrowserModule, 
         HttpModule,
-        InMemoryWebApiModule.forRoot(InMemoryEntryService)
+        InMemoryWebApiModule.forRoot(InMemoryEntryService),
+        FormsModule
     ],
     providers: [ EntryService ],
     declarations: [
