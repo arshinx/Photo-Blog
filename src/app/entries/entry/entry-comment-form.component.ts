@@ -1,7 +1,13 @@
 
 import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
 
-
+/**
+ * Output    - shows Output to HTML
+ * ViewChild - Scans for local variables in children pages
+ * 
+ * @export
+ * @class EntryCommentFormComponent
+ */
 @Component({
     selector: 'app-entry-comment-form',
     templateUrl: 'entry-comment-form.component.html'
