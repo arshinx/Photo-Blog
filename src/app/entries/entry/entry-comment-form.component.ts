@@ -1,6 +1,7 @@
 
 import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
 import { NgForm } from "@angular/forms";
+import { EntryService } from '../shared/entry.service';
 
 /**
  * Output    - shows Output to HTML
@@ -21,7 +22,7 @@ export class EntryCommentFormComponent {
     @ViewChild('commentForm') commentForm: NgForm;
 
     constructor() {
-        
+
     }
 
     onSubmit(commentForm: NgForm) {
