@@ -9,7 +9,7 @@ export class EntryCommentFormComponent {
     name: string = "";
     comment: string = "";
 
-    onsubmit() {
+    onSubmit() {
         debugger;
     }
 }
