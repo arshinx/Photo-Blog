@@ -18,7 +18,7 @@ import { EntryService } from '../shared/entry.service';
 export class EntryCommentFormComponent {
     name: string = "";
     comment: string = "";
-    @Input() entryId: string;
+    @Input() entryId: number;
     @Output() onCommentAdded = new EventEmitter<{name: string; comment: string;}>();
     @ViewChild('commentForm') commentForm: NgForm;
 
