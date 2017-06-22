@@ -8,8 +8,8 @@ export class EntryService {
 
     }
 
-    addComment() {
-        
+    addComment(entryId: number) {
+
     }
 
     getEntries(): Promise<Entry[]> {
