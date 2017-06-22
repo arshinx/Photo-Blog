@@ -11,6 +11,6 @@ export class EntryCommentFormComponent {
     onCommentAdded = new EventEmitter<{name: string; comment: string;}>();
 
     onSubmit() {
-        
+        let comment = { name: this.name, comment: this.comment };
     }
 }
