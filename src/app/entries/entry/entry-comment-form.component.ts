@@ -1,5 +1,5 @@
 
-import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
 import { NgForm } from "@angular/forms";
 import { EntryService } from '../shared/entry.service';
 
