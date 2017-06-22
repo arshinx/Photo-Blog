@@ -21,7 +21,7 @@ export class EntryCommentFormComponent {
     @Output() onCommentAdded = new EventEmitter<{name: string; comment: string;}>();
     @ViewChild('commentForm') commentForm: NgForm;
 
-    constructor() {
+    constructor(entryService: EntryService) {
 
     }
 
