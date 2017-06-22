@@ -27,7 +27,10 @@ export class EntryCommentFormComponent {
 
     onSubmit(commentForm: NgForm) {
         let comment = { name: this.name, comment: this.comment };
-        this.onCommentAdded.emit(comment);
-        this.commentForm.resetForm();
+        this.entryService.addComment(this.entryId, comment)
+            .then(() => {
+                this.onCommentAdded.emit(comment);
+                this.commentForm.resetForm();
+            })
     }
 }
