@@ -8,6 +8,10 @@ export class EntryService {
 
     }
 
+    addComment() {
+        
+    }
+
     getEntries(): Promise<Entry[]> {
         return this.http.get('/app/entries')
                 .toPromise()
