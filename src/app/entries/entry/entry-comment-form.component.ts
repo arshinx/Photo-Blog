@@ -12,5 +12,6 @@ export class EntryCommentFormComponent {
 
     onSubmit() {
         let comment = { name: this.name, comment: this.comment };
+        this.onCommentAdded.emit(comment);
     }
 }
