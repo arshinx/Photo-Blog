@@ -2,7 +2,7 @@
     <div>
         <label for="name">Name</label>
         <input type="text" name="name" [(ngModel)]="name" required minlength="3" #nameField="ngModel"/>
-        <div class="alert alert-danger" *ngIf="(commentForm.submitted || nameField.dirty || nameField.touched) && nameField.errors">
+        <div class="alert alert-danger" *ngIf="(commentForm.submitted || nameField.touched) && nameField.errors">
             <div [hidden]="!nameField.errors.required" >Name is required.</div>
             <div [hidden]="!nameField.errors.minlength" >Name must be a minimum of 3 characters long.</div>
         </div>
