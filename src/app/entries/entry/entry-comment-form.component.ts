@@ -10,6 +10,6 @@ export class EntryCommentFormComponent {
     comment: string = "";
 
     onsubmit() {
-        
+        debugger;
     }
 }
