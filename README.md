@@ -14,5 +14,3 @@ Built on Angular with TypeScript, while using a variety of features from ES2015.
 - Displaying a Collection of Photos and Comments
 - Enables Users to Add Comments
 - Instantly Updates the Comments List
-- Validates Form for Submission Errors, Instantly
-- Enables Users to Like Images
