@@ -1,4 +1,6 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+
+import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
+
 
 @Component({
     selector: 'app-entry-comment-form',
