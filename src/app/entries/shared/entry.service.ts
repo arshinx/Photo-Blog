@@ -8,7 +8,7 @@ export class EntryService {
 
     }
 
-    addComment(entryId: number) {
+    addComment(entryId: number, comment: {name: string, comment: string}) {
 
     }
 
