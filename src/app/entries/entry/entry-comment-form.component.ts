@@ -1,5 +1,6 @@
 
 import { Component, EventEmitter, Output, ViewChild } from '@angular/core';
+import { NgForm } from "@angular/forms";
 
 /**
  * Output    - shows Output to HTML
