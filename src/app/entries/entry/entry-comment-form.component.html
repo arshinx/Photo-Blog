@@ -9,7 +9,7 @@
     </div>
     <div>
         <label for="comment">Comment</label>
-        <textarea name="comment" [(ngModel)]="comment" required minlength="5"></textarea>
+        <textarea name="comment" [(ngModel)]="comment" required minlength="5" #commentField="ngModel"></textarea>
          <div class="alert alert-danger" *ngIf="(commentField.submitted || commentField.dirty || commentField.touched) && commentField.errors">
             <div [hidden]="!commentField.errors.required" >Comment is required.</div>
             <div [hidden]="!commentField.errors.minlength" >Comment must be a minimum of 5 characters long.</div>
