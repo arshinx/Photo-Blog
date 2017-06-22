@@ -1,5 +1,9 @@
 # Photo Blog
 
+A Blog Displaying a Collection of Photos, and allows user comments.
+
+### Local Setup
+
 1. Clone the repository
 2. Run `npm install`
 3. Start the server `npm run serve`
