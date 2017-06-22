@@ -8,6 +8,7 @@ import { Component, EventEmitter } from '@angular/core';
 export class EntryCommentFormComponent {
     name: string = "";
     comment: string = "";
+    onCommentAdded = new EventEmitter();
 
     onSubmit() {
         debugger;
