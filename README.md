@@ -11,3 +11,4 @@ A Blog Displaying a Collection of Photos, and allows user comments.
 Built on Angular with TypeScript, while using a variety of features from ES2015.
 
 ### Key Features
+- Displaying a Collection of Photos and Comments
